@@ -35,7 +35,8 @@ body{
 .cat-main{
     display: flex;
     justify-content: center;
-    width: 600px;
+    width: 800px;
+    margin-left: 17%;
 }
 img{
     width: 100%;
@@ -49,14 +50,19 @@ img{
 }
 /* .section-main{
 } */
+.cat-info{
+    width: 300px;
+    float: left;
+}
 .header-one{
-
+    letter-spacing: 2px;
 }
 .gallery-main{
     display: grid;
     width: 1000px;
     grid-template-columns: auto auto auto;
     grid-template-rows: 3;
+    margin-left: 6em;
 }
 .footer-main{
     width: 1200px;
