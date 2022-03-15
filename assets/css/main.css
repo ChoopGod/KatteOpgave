@@ -6,7 +6,7 @@ body{
 .container-main{
     width: 1200px;
     margin: auto;
-    background-color: #e0dede
+    background-color: #e0dede;
 }
 .header-main{
     display: flex;
@@ -14,14 +14,23 @@ body{
     background-color: rgb(172, 49, 49);
     color: white;
     font-size: 80px;
-    height: 80px;
+    height: 100px;
 }
 .nav-main{
     display: flex;
     justify-content: space-evenly;
 }
 .nav-main a{
-    background: blue;
+    color: white;
+    border-radius: 2px;
+    background-color: blue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.nav-main a:hover{
+    background-color: rgb(46, 46, 148);
+    color: white;
+    cursor: pointer;
 }
 .cat-main{
     display: block;
@@ -31,10 +40,11 @@ img{
     width: 100%;
 }
 .p-main{
-    font-size: 72px;
+    display: block;
+    font-size: 90px;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 /* .section-main{
 } */
@@ -48,6 +58,10 @@ img{
     grid-template-rows: auto auto auto;
 }
 .footer-main{
+    font-size: 2em;
     background-color: rgb(30, 30, 136);
     color: white;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
 }
