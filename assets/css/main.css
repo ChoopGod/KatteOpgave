@@ -9,13 +9,23 @@ body{
     background-color: #e0dede
 }
 .header-main{
+    display: flex;
+    justify-content: center;
     background-color: rgb(172, 49, 49);
     color: white;
+    font-size: 80px;
     height: 80px;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-main a{
+    background: blue;
 }
 .cat-main{
     display: block;
-    align-items: center;
+    width: 800px;
 }
 img{
     width: 100%;
@@ -29,7 +39,7 @@ img{
 /* .section-main{
 } */
 .header-one{
-    
+
 }
 .gallery-main{
     width: 1000px;
