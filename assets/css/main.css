@@ -1,4 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
 body{
     font-family: 'Smooch Sans', sans-serif;
+    background-color: #efefef;
+}
+.container-main{
+    width: 1200px;
+    margin: auto;
+    background-color: #e0dede
+}
+.header-main{
+    background-color: rgb(172, 49, 49);
+    color: white;
+    height: 80px;
+}
+.cat-main{
+    display: block;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+.p-main{
+    font-size: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* .section-main{
+} */
+.header-one{
+    
+}
+.gallery-main{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.footer-main{
+    background-color: rgb(30, 30, 136);
+    color: white;
 }
