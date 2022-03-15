@@ -1,8 +1,5 @@
 # KatteOpgave
 
 Opgave til at lave Katte Sammen uden kommunikation
-aswad
-Husk at wrappe det hele ind i en container-main --> 
-<div class="container-main">
-<!-- ALT INDHOLD -->
-</div>
+
+Hvilken Text skal jeg putte ind i paragraf taggene på infopage?
